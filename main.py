@@ -4,13 +4,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 
-
-from selenium.webdriver import Chrome, ChromeOptions
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-import time
-
 # Erstelle ChromeOptions für Konfigurationsoptionen des Chrome-Browsers
 options = ChromeOptions()
 
